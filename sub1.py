@@ -25,8 +25,8 @@ def calculator():
                 continue
                                 
 
-        print(f"결과: {result}")
-        cont = input("다시 계산하기 (y/n): ")
+        print(result)
+        cont = input("다시 계산하기(y/n): ")
         if cont.lower() != 'y':
             break
 
