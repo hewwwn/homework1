@@ -29,5 +29,3 @@ def calculator():
         cont = input("다시 계산하기(y/n): ")
         if cont.lower() != 'y':
             break
-
-calculator()
